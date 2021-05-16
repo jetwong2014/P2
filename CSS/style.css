@@ -29,6 +29,38 @@
     text-decoration: none;
 }               
 
+.searchbar-container {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+.searchbar-content {
+    display: inline-flex;   
+}
+
+.map-button {
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border: 0;
+}
+
+.fa-map-marker-alt {
+    padding: 10px;
+}
+
+.search-box {
+    border: 1px solid #ccc ;
+}
+
+.search-button {
+    background-color: #0065FC;
+    color:white;
+    border: 0;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    padding: 10px;
+}
+
 .filter-container { 
     width: 50%;
     display: flex;

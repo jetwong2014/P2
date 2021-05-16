@@ -1,0 +1,48 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    max-width: 60em;
+}
+
+ul, li {
+    list-style-type: none;
+}
+
+img {
+    width: 100%;
+}
+
+.main-card-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.main-card {
+    display: flex;
+    width: 100%;
+}
+
+.main-card-content {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.main-card-content p {
+    flex: 1 0 auto;
+}
+
+@media all and (min-width: 40em) {
+    .main-card {
+      width: 50%;
+    }
+  }
+@media all and (min-width: 60em) {
+    .main-card {
+      width: 33.33%;
+    }
+
+}
+    
